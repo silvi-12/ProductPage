@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Assignment Submission: Creating a Responsive E-commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description:
+This assignment involves developing a responsive e-commerce website using React.js and Tailwind CSS. The website includes features such as displaying a list of products, adding products to the cart, incrementing/decrementing product quantities, and displaying a checkout popup.
 
-## Available Scripts
+## Steps to Build and Run the Project:
+1. Clone the Repository:
+git clone "https://github.com/Smitkhobragade/quickcafe-products-page.git"
+cd quickcafe-products-page
 
-In the project directory, you can run:
+2. Install Dependencies:
+npm install or npm i
 
-### `npm start`
+3. Start the Development Server:
+npm start or npm run start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Access the Website: Open your web browser and go to http://localhost:3000 to view the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. Build the Website.
+npm run build
 
-### `npm test`
+## Project Structure:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. components/: Contains all React components used in the project.
 
-### `npm run build`
+2. Header.js: Component for the website header with a responsive hamburger menu.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Cards.js: Component for displaying a cards of products with increment/decrement buttons.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. beautyProduct.json =: a json file which stores the information of all the products showed in the cards.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. CheckOutButton.js: Check-out button which when clicked shows a modal with cart summary.
 
-### `npm run eject`
+6. itemInfo.js: Component for displaying a popup with the cart summary during checkout.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+7. App.js: Main component file where all other components are rendered.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+8. index.js: Entry point for the React application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Documentation:
+This project aims to create a fully responsive website using React.js and Tailwind CSS. The website consists of several components, including a header with a responsive hamburger menu for mobile devices, a product list component for displaying available products, and individual product cards with quantity controls.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Users can browse through the list of products, increment or decrement the quantity of each product, and view the total price in the checkout popup. The checkout popup is displayed when the user clicks on the "Checkout" button in the header or footer.
 
-## Learn More
+To run the project locally, clone the repository, install dependencies, and start the development server. Then, access the website in your web browser at http://localhost:3000.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Note: Ensure you have Node.js and npm installed on your system before running the project.
