@@ -1,23 +1,25 @@
 # Assignment Submission: Creating a Responsive E-commerce Website
 
 ## Description:
+
 This assignment involves developing a responsive e-commerce website using React.js and Tailwind CSS. The website includes features such as displaying a list of products, adding products to the cart, incrementing/decrementing product quantities, and displaying a checkout popup.
 
 ## Steps to Build and Run the Project:
+
 1. Clone the Repository:
-git clone "https://github.com/Smitkhobragade/quickcafe-products-page.git"
-cd quickcafe-products-page
+   git clone "https://github.com/silvi-12/ProductPage.git"
+   cd quickcafe-products-page
 
 2. Install Dependencies:
-npm install or npm i
+   npm install or npm i
 
 3. Start the Development Server:
-npm start or npm run start
+   npm start or npm run start
 
 4. Access the Website: Open your web browser and go to http://localhost:3000 to view the website.
 
 5. Build the Website.
-npm run build
+   npm run build
 
 ## Project Structure:
 
@@ -38,6 +40,7 @@ npm run build
 8. index.js: Entry point for the React application.
 
 ## Documentation:
+
 This project aims to create a fully responsive website using React.js and Tailwind CSS. The website consists of several components, including a header with a responsive hamburger menu for mobile devices, a product list component for displaying available products, and individual product cards with quantity controls.
 
 Users can browse through the list of products, increment or decrement the quantity of each product, and view the total price in the checkout popup. The checkout popup is displayed when the user clicks on the "Checkout" button in the header or footer.
