@@ -26,7 +26,8 @@ export default function CheckOutButton({ pdtInfo }) {
 					display: "flex",
 					justifyContent: "center",
 				}}
-				onClick={handleClick}>
+				onClick={handleClick}
+				disabled={uniqueArray.length === 0}>
 				<FontAwesomeIcon
 					icon={faCartShopping}
 					style={{ padding: "0.3rem 0.5rem 0.3rem 0.3rem" }}
