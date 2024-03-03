@@ -1,0 +1,14 @@
+the files made are -
+
+Header.js
+=> contains the code for a sticky navbar with links provided, 
+=> the support button is currently disabled
+=> there's a search bar given for future search of products
+
+Cards.js
+=> contains the structure of cards, which is getting info for, the beautyProduct data's json file 
+=> including data in this manner, reduces the amount and complexity of code 
+=> the cards contain add, subtract button made using useState function of react 
+
+CheckOutButton.js
+=> this for the sticky checkout button at the bottom of the page 
